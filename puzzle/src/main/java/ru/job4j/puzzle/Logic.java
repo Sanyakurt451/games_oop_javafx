@@ -61,6 +61,7 @@ public class Logic {
     }
 
     public boolean isWin() {
+
         return Win.check(convert());
     }
 
