@@ -14,8 +14,8 @@ public class Win {
 
         public static boolean monoVertical(int[][] board, int column) {
             boolean result = true;
-            for (int in = 0; in < board[column].length; in++) {
-                if (board[in][column] != 1) {
+            for (int i = 0; i < board[column].length; i++) {
+                if (board[i][column] != 1) {
                     result = false;
                     break;
                 }
