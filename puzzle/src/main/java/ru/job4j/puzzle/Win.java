@@ -9,7 +9,7 @@ public class Win {
                 break;
             }
         }
-        return result;
+           return result;
     }
 
         public static boolean monoVertical(int[][] board, int column) {
@@ -29,11 +29,11 @@ public class Win {
                  if (board[i][i] == 1 && (monoHorizontal(board, i) || monoVertical(board, i))) {
                      rsl = true;
                      break;
-                        }
-                    }
-                    return rsl;
-                }
-            }
+                 }
+             }
+             return rsl;
+        }
+}
 
 
 
